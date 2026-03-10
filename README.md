@@ -143,4 +143,4 @@ java com.mensal1.Main
 
 # 👨‍💻 Autor
 
-Projeto desenvolvido para atividade acadêmica de **LEONARDO CHRISTOPHER**.
+Projeto desenvolvido para atividade acadêmica de **LEONARDO E CHRISTOPHER**.
