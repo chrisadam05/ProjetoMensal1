@@ -1,4 +1,4 @@
-package org.example.model;
+package com.mensal1.model;
 
 public class Produto {
 
@@ -37,4 +37,13 @@ public class Produto {
     public String toString(){
         return id + " - " + nome + " | R$" + preco + " | Qtd: " + quantidade;
     }
+    public void setNome(String nome){
+    this.nome = nome;
+}
+
+public void setPreco(double preco){
+    this.preco = preco;
+}
+
+
 }
