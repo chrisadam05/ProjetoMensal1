@@ -1,10 +1,9 @@
-package org.example.service;
-
-import org.example.model.Produto;
+package com.mensal1.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.mensal1.model.Produto;
 
 public class ProdutoService {
 
@@ -35,4 +34,17 @@ public class ProdutoService {
         }
         return false;
     }
+    public boolean atualizar(int id, String nome, double preco, int qtd){
+
+    Produto p = buscar(id);
+
+    if(p != null){
+        p.setNome(nome);
+        p.setPreco(preco);
+        p.setQuantidade(qtd);
+        return true;
+    }
+
+    return false;
+}
 }
